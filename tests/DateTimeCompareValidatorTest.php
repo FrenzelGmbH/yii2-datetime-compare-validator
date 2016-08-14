@@ -1,7 +1,7 @@
 <?php
 
 use yii\base\DynamicModel;
-use nepstor\validators\DateTimeCompareValidator;
+use net\frenzel\validators\DateTimeCompareValidator;
 
 class DateTimeCompareValidatorTest extends PHPUnit_Framework_TestCase
 {
