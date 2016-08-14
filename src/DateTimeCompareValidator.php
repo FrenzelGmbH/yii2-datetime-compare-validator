@@ -5,7 +5,7 @@
 * @license http://opensource.org/licenses/BSD-3-Clause
 */
 
-namespace nepstor\validators;
+namespace net\frenzel\validators;
 
 use DateTime;
 use Yii;
