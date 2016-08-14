@@ -12,7 +12,7 @@ php composer.phar require nepstor/yii2-datetime-compare-validator "^2.0"
 ```
 or add
 ```json
-"nepstor/yii2-datetime-compare-validator": "^2.0"
+"frenzelgmbh/yii2-datetime-compare-validator": "^2.0"
 ```
 to the require section of your `composer.json` file.
 
@@ -22,7 +22,7 @@ Using
 public function rules()
 {
     return [
-        ['begin', nepstor\validators\DateTimeCompareValidator::className(), 'compareAttribute' => 'end', 'format' => 'Y-m-d', 'operator' => '>=']
+        ['begin', net\frenzel\validators\DateTimeCompareValidator::className(), 'compareAttribute' => 'end', 'format' => 'Y-m-d', 'operator' => '>=']
     ];
 }
 ```
