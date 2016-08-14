@@ -5,7 +5,7 @@
 * @license http://opensource.org/licenses/BSD-3-Clause
 */
 
-namespace nepstor\validators;
+namespace net\frenzel\validators;
 
 use yii\web\AssetBundle;
 
@@ -18,7 +18,7 @@ class DateTimeCompareValidatorAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@vendor/nepstor/yii2-datetime-compare-validator/src/assets';
+    public $sourcePath = '@vendor/frenzelgmbh/yii2-datetime-compare-validator/src/assets';
     
     /**
      * @inheritdoc
@@ -37,6 +37,6 @@ class DateTimeCompareValidatorAsset extends AssetBundle
      */
     public $depends = [
         'yii\validators\ValidationAsset',
-        'nepstor\validators\MomentJsAsset',
+        'net\frenzel\validators\MomentJsAsset',
     ];
 }
